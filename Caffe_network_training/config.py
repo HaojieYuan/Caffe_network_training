@@ -18,11 +18,11 @@
 
 # Sepcify your caffe master path, in order someone changed caffe path architecture,
 # also specify some subdirectories below
-caffe_master_path = '/home/haojie/code/caffe-master/'
+caffe_master_path = '/opt/caffe/'
 
 # Specify your caffe tools path, in most cases it is 'Caffe_root_path/build/tools/'
 # which should contain binary files named caffe, convert_imageset and compute_image_mean
-caffe_tools_path = '/home/haojie/code/caffe-master/build/tools/'
+caffe_tools_path = '/opt/caffe/build/tools/'
 
 
 # LMDB file and mean file generate destination
@@ -39,7 +39,7 @@ mean_file_name = 'gen_mean.binaryproto'
 # Try 'make pycaffe' in caffe_root_path
 gen_npy_mean = True
 npy_mean_file_name = 'gen_mean.npy'
-pycaffe_path = '/home/haojie/code/caffe-master/python/'
+pycaffe_path = '/opt/caffe/python/'
 
 # Configure your image class number and labels
 # Label list length should have a length same as class_number
