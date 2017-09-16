@@ -1,0 +1,21 @@
+net: "/path_prefix/sample_architecture.prototxt"
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.005
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/path_you_want_to_save_model/your_prefered_prefix"
+solver_mode: GPU
+
+# Don't forget to set up data param and transform param in first two layers
+# of sample_architecture.prototext.
+# In which you need to specify your mean file and generated database.
+# Mean file and database file path can be found in config.py.
+
+# Finally you will get your caffe model with snapshot_prefix.
