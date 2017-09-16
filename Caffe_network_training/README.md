@@ -23,7 +23,7 @@ Run  /test/test.py  to check if your environment is good to go.
 
 (Please specify valid caffe (master&tools) path and pycaffe path first.)
 
-(If you want to run GPU tset, use "test.py -gpu gpu_id" to do so.)
+(If you want to run GPU tset, use "test.py --gpu gpu_id" to do so.)
 #     
 
 Anyway, I hope it can help you.
