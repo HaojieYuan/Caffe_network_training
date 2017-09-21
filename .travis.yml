@@ -9,9 +9,8 @@ python:
 services:
   - docker
 
-before_install:
+install:
 - docker pull haojieyuan/caffe_training_and_analyzing:cpu
-- docker run haojieyuan/caffe_training_and_analyzing:cpu /bin/sh -c  "cd /workspace/Caffe_model_analyzer/Caffemodel_analyzier/test; python test.py"
 
 script:
-  - ./test/test.py
+- docker run haojieyuan/caffe_training_and_analyzing:cpu /bin/sh -c  "cd /workspace/Caffe_network_training/Caffe_network_training/test; python test.py"
