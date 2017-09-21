@@ -1,6 +1,6 @@
 
 # Caffe network training tools
-![alt tag](https://travis-ci.org/HaojieYuan/Caffe_network_training.svg?branch=master)
+[![alt tag](https://travis-ci.org/HaojieYuan/Caffe_network_training.svg?branch=master)](https://travis-ci.org/HaojieYuan/Caffe_model_analyzer)
 
 Recently I was trying to build a neural net work.
 
